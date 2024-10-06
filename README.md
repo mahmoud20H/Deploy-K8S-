@@ -30,3 +30,12 @@ This setup involves:
 
 Master Node: Controls the cluster, schedules workloads, and manages resources.
 Worker Nodes: Hosts the application workloads.
+
+
+Common Issues
+Pods stuck in Pending: This could be related to a missing Pod network plugin.
+Kubeadm join errors: Check the firewall and ensure required ports are open.
+API Server Unreachable: Verify that the master node's API server is running and accessible.
+Contributing
+Feel free to submit pull requests to improve the installation steps or fix any issues you encounter.
+
